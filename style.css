@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    padding-top: 800px;
+    
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height: 800px;
+    color: #f200ff;
+    display: table;
+    z-index: 9;
+    opacity: 0.83;
+    background: linear-gradient;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color:blueviolet;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+}
